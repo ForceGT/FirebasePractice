@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Light/Day theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="backgroundcolor">#ffffff</item>
+        <item name="textcolor">#000000</item>
+        <item name="tintcolor">#808080</item>
+        <item name="buttontext">#ffffff</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimation</item>
+    </style>
+
+    <!-- Dark/Night theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="backgroundcolor">#000000</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="tintcolor">@color/tintedit</item>
+        <item name="buttontext">#000000</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimation</item>
+    </style>
+
+    <style name="WindowAnimation" >
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>

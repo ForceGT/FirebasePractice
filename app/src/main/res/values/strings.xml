@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FirebaseAuthentication</string>
+    <string name="btn_text">Sign In</string>
+    <string name="edit1_title">Email</string>
+    <string name="edit2_title">Password</string>
+    <string name="welcome_msg">Welcome to the Firebase Authentication App</string>
+    <string name="newuser">New User?</string>
+    <string name="signup">Sign Up</string>
+    <string name="switchtext">Switch Theme</string>
+    <string name="chatwelcome">Welcome to Your Chat</string>
+</resources>
